@@ -7,6 +7,8 @@ html {
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+    height: 80%;
+    width: 80%;
   }
   
   td, th {
@@ -34,3 +36,22 @@ html {
     padding: 10px;
   }
   
+  .col-top {
+        border-top: solid 2px black;
+        border-left: solid 2px black;
+        border-right: solid 2px black;
+  }
+
+  .col-mid {
+    
+        border-left: solid 2px black;
+        border-right: solid 2px black;
+      
+  }
+
+  .col-bottom {
+        border-bottom: solid 2px black;
+        border-left: solid 2px black;
+        border-right: solid 2px black;
+      
+  }
